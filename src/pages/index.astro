@@ -28,11 +28,10 @@ const avatarSrcs: Array<string> = [
 ---
 
 <MainLayout>
-  
   <HeroSection
     title=`Fasády <span
-        class="animate-pulse text-yellow-400 dark:text-yellow-400">NIKOBAU</span>`
-    subTitle="Provádíme fasády a zateplování bytových domů."
+        class="animate-pulse tracking-wider text-teal-400 dark:text-yellow-400" >NIKOBAU</span>`
+    subTitle="Provádíme zateplování bytových domů"
     primaryBtn="Realizace"
     primaryBtnURL="/"
     secondaryBtnURL="/contact"
@@ -41,13 +40,8 @@ const avatarSrcs: Array<string> = [
     rating=`<span class="font-bold">4.8</span> / 5`
     starCount={4}
     reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
-    src= https://images.unsplash.com/photo-1481253127861-534498168948?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt="Stack of ScrewFast product boxes containing assorted hardware tools"
-  />
-
-  <ClientsSection
-    title="Reference zákazníků"
-    subTitle="Firmy s kterými jsme spolupracovali"
+    src="https://images.unsplash.com/photo-1481253127861-534498168948?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    alt="nikobau image 1"
   />
 
   <!-- <FeaturesGeneral
@@ -58,37 +52,45 @@ const avatarSrcs: Array<string> = [
     features={features}
   /> -->
 
-  <!-- <FeaturesNavs
-    title=`Customize <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>'s offerings to perfectly suit your hardware and construction needs.`
+  <FeaturesNavs
+    title=`Dokončené realizace a zakázky <span class="text-yellow-500 dark:text-yellow-400">Praha 2023</span>`
     tabs={[
       {
-        heading: "Cutting-Edge Tools",
+        heading: "Klamovka 2023",
         content:
-          "Empower your projects with ScrewFast's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
-        svg: "tools",
-        src: tools,
+          "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
+        svg: "house",
+        src: construction,
         alt: "Yellow and black heavy equipment on brown grass field",
         first: true,
       },
       {
-        heading: "Intuitive Dashboards",
+        heading: "Motol 2023",
         content:
-          "Navigate with ease using ScrewFast's intuitive dashboards. Set up and oversee your projects seamlessly, with user-friendly interfaces designed for quick and effective workflow management.",
-        svg: "dashboard",
+          "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
+        svg: "house",
         src: dashboard,
         alt: "A screenshot or graphic representation of the intuitive dashboard",
         second: true,
       },
       {
-        heading: "Robust Features",
+        heading: "Anděl 2023",
         content:
-          "Minimize complexity, maximize productivity. ScrewFast's robust features are engineered to streamline your construction process, delivering results that stand out for their excellence.",
+          "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         svg: "house",
-        src: construction,
+        src: tools,
         alt: "Gray metal building frame near tower crane during daytime",
       },
+      {
+        heading: "Vinohrady 2023",
+        content:
+          "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
+        svg: "house",
+        src: construction,
+        alt: "Yellow and black heavy equipment on brown grass field",
+      }
     ]}
-  /> -->
+  />
 
   <!-- <TestimonialsSection
     title="Fast-Track Your Projects"
@@ -127,8 +129,11 @@ const avatarSrcs: Array<string> = [
     ]}
   /> -->
 
-
-  <!-- <FAQ title="Frequently<br />asked questions" faqs={faqs} /> -->
+  <FAQ title="Nejčastější<br />dotazy" faqs={faqs} />
+  <ClientsSection
+    title="Reference zákazníků"
+    subTitle="Firmy s kterými jsme spolupracovali"
+  />
 
   <!-- <HeroSectionAlt
     title="Let's Build Together"

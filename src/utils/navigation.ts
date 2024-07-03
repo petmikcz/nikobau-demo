@@ -1,9 +1,9 @@
 // An array of links for navigation bar
 const navBarLinks = [
   { name: "Domů", url: "/" },
-  { name: "Realizace", url: "/#" },
+  // { name: "Realizace", url: "/#" },
   { name: "Služby", url: "/#" },
-  { name: "Kontakt", url: "/contact" },
+  { name: "O nás", url: "/contact" },
 ];
 // An array of links for footer
 const footerLinks = [
@@ -11,7 +11,7 @@ const footerLinks = [
     section: "Společnost",
     links: [
       { name: "O nás", url: "#" },
-      { name: "Blog", url: "/blog" },
+      // { name: "Blog", url: "/blog" },
       { name: "Kontakt", url: "#" },
     ],
   },

@@ -15,4 +15,6 @@
   "markdown.copyFiles.destination": {
     "/src/content/**/*": "/src/images/content/${documentBaseName}/"
   },
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.guides.indentation": false,
 }
